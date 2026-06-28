@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+
+<body>
+    <h1>JOB APPLICATION FORM</h1>
+    <form method="post">
+        Personal Information:<br>
+        <input type="text" name="first_name" placeholder="First Name">
+        <input type="text" name="last_name" placeholder="Last Name">
+        <input type="number" name="age" placeholder="Age">
+        <br><br>
+        <hr><br>Gender:<br>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other
+        <br><br>
+        <hr><br>
+        Contact Information:<br>
+        <input type="tel" name="phone" placeholder="Enter Your Phone Number">
+        <input type="email" name="email" placeholder="Enter Your Email">
+        <br><br>
+        <hr><br>
+        Professional Details & Role:<br>
+        <input type="text" name="role" placeholder="Enter Your Role">
+        <input type="text" name="experience" placeholder="Enter Your Experience"><br><br>
+        <fieldset><hr>
+            <legend>Skills & Certifications</legend>
+            <p>Select your areas of expertise (Choose all that apply):</p>
+
+            <input type="checkbox" id="skill-html" name="skills" value="html">
+            <label for="skill-html">HTML & CSS</label><br>
+
+            <input type="checkbox" id="skill-js" name="skills" value="javascript">
+            <label for="skill-js">JavaScript</label><br>
+
+            <input type="checkbox" id="skill-react" name="skills" value="react">
+            <label for="skill-react">React / Frontend Frameworks</label><br>
+
+            <input type="checkbox" id="skill-git" name="skills" value="git">
+            <label for="skill-git">Git & GitHub</label><br>
+
+            <input type="checkbox" id="skill-qa" name="skills" value="testing">
+            <label for="skill-qa">Manual / Automated Testing</label><br>
+        </fieldset>
+        <br><br>
+        <hr><br>
+        Are you willing to Relocate:<br>
+        <input type="radio" name="relocate" value="yes"> Yes
+        <input type="radio" name="relocate" value="no"> No
+        <br><br>
+        <hr><br>
+        <textarea name="message" rows="5" cols="30" placeholder="Why do you want to join our Company? "></textarea>
+
+    </form>
+</body>
+
+</html>
