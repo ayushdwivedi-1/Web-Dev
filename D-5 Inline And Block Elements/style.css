@@ -1,0 +1,14 @@
+.marvel-paragraph {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.hero-name {
+    color: gold;
+    font-weight: bold;
+}
+.team-banner {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
