@@ -13,3 +13,6 @@ I Learned adding **Images, Tables and Lists** and made [MARVEL SUPERHEROES](D-3%
 I learned about **Forms and Input Tags** and made[JOB APPLICATION FORM](D-4%20Forms%20And%20Input%20Tags)
 <img width="2561" height="1634" alt="screencapture-192-168-31-11-3000-D-4-Forms-and-Input-Tags-index-html-2026-07-30-23_55_21" src="https://github.com/user-attachments/assets/3bd6a0d1-e409-4b7b-9bb9-f566ca99b61d" />
 ## Day 5
+I leaned about **Inline and Block Elements** and made [TEST SITE][def]
+
+[def]: D-5%20Inline%20And%20Block%20Elements
