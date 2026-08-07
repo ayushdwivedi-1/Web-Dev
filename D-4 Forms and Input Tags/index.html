@@ -27,7 +27,15 @@
         <br><br>
         <hr><br>
         Professional Details & Role:<br>
-        <input type="text" name="role" placeholder="Enter Your Role">
+        <label for ="role">Select Your Desired Role:</label>
+        <select name="role" id="role" >
+            <option value="" selected disabled hidden>Select a Role</option>
+            <option value="frontend">Frontend Developer</option>
+            <option value="backend">Backend Developer</option>
+            <option value="fullstack">Full Stack Developer</option>
+            <option value="qa">QA Engineer</option>
+            <option value="devops">DevOps Engineer</option>
+        </select>
         <input type="text" name="experience" placeholder="Enter Your Experience"><br><br>
         <fieldset><hr>
             <legend>Skills & Certifications</legend>
@@ -55,7 +63,7 @@
         <input type="radio" name="relocate" value="no"> No
         <br><br>
         <hr><br>
-        <textarea name="message" rows="5" cols="30" placeholder="Why do you want to join our Company? "></textarea>
+        <textarea id="message" name="message" rows="5" cols="30" placeholder="Why do you want to join our Company? "></textarea>
         <p>
             <label for="resume">Upload Your Resume:</label>
             <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx">

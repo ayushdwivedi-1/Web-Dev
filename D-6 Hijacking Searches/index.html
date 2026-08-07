@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hijacking Searches</title>
+</head>
+<body>
+    <h1>Hijacking Searches</h1>
+    <form method="get" action="https://www.google.com/search">
+        <label for="search">Search Google:</label>
+        <input type="text" id="search" name="q" placeholder="Enter your search query">
+        <button type="submit">Search</button>
+    </form>
+    <form method="get" action="https://www.reddit.com/search">
+        <label for="reddit-search">Search Reddit:</label>
+        <input type="text" id="reddit-search" name="q" placeholder="Enter your search query">
+        <button type="submit">Search</button>
+    </form>
+    <form method="get" action="https://www.youtube.com/results">
+        <label for="youtube-search">Search YouTube:</label>
+        <input type="text" id="youtube-search" name="search_query" placeholder="Enter your search query">
+        <button type="submit">Search</button>
+    </form>
+    <form method="get" action="https://www.x.com/search">
+        <label for="x-search">Search X(Twitter):</label>
+        <input type="text" id="x-search" name="q" placeholder="Enter your search query">
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>
