@@ -2,15 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
 img {
     width: 30%;
-    margin-left: calc(10%/6);
-    margin-top: 1em;
+    margin: calc(10%/6);
+    margin-top: 2em;
 }
 
 nav {
     font-family: 'Nabla', sans-serif;
-    font-size: 1.5em;
+    font-size: 2em;
+    text-align: center;
     text-transform: uppercase;
-    border-bottom: 2px solid #f1f1f1;
+    border-bottom: 2px solid #620606;
     width: 30%;
     margin-left: calc(10%/6);
     padding: 1.2em 0;
