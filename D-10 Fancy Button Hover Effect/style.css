@@ -1,0 +1,28 @@
+body {
+    background-color: #230042;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+button {
+    background:none;
+    color: #f25900;
+    scale: 1.6;
+    border-color: coral;
+    border-radius: 8%;
+    padding-inline: 2em;
+    font-family: Barlow Semi Condensed;
+    font-weight: bolder;
+    padding-block: 10px;
+    transition: ease-in-out;
+    transition-duration: 0.2s;
+    border-block: solid;
+}
+button:hover{
+    border-color: gold;
+    transform: translateY(-3px);
+    color:gold;
+    box-shadow: 0 0.5em 0.5em -0.2em gold;
+    cursor:pointer;
+}
