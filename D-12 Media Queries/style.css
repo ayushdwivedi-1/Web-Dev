@@ -13,3 +13,13 @@ ul,li {
     margin: 0;
     padding: 0;
 }
+@media (min-width:400px) and (max-width:800px){
+    h1 {
+        color: purple;
+    }
+}
+@media (orientation: landscape) {
+    body {
+    background-color: rgb(94, 119, 249);
+    }
+}
