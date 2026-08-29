@@ -5,37 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pricing Panel Project</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
 </head>
 
 <body>
     <div class="panel">
         <article class="subscription">
-            <img src="icon1.png">
+            <img src="icon1.png" class="pricing-img">
             <h2 class="price-header">PERSONAL</h2>
-            <ul >
-                <li class="pricing-feaures">Custom Domains</li>
-                <li class="pricing-feaures">Sleeps after 30 minutes of inactivity</li>
+            <ul class="pricing-features">
+                <li class="pricing-features-items">Custom Domains</li>
+                <li class="pricing-features-items">Sleeps after 30 minutes of inactivity</li>
             </ul>
-            <p>FREE</p><a href="#/" class="signup">SIGN UP</a>
+            <p class="pricing-features-price">FREE</p>
+            <a href="#/" class="pricing-button">FREE TRIAL</a>
         </article>
         <article class="subscription">
-            <img src="icon2.png">
+            <img src="icon2.png" class="pricing-img">
             <h2 class="price-header">SMALL TEAM</h2>
-            <ul>
-                <li class="pricing-feaures">Custom Domains</li>
-                <li class="pricing-feaures">Sleeps after 30 minutes of inactivity</li>
+            <ul class="pricing-features">
+                <li class="pricing-features-items">Custom Domains</li>
+                <li class="pricing-features-items">Sleeps after 30 minutes of inactivity</li>
             </ul>
-            <p>$150</p><a href="#/" class="signup">SIGN UP</a>
+            <p class="pricing-features-price">$150</p>
+            <a href="#/" class="pricing-button is-featured">FREE TRIAL</a>
         </article>
         <article class="subscription">
-            <img src="icon3.png">
+            <img src="icon3.png" class="pricing-img">
             <h2 class="price-header">ENTERPRISE</h2>
-            <ul>
-                <li class="pricing-feaures">Dedicated</li>
-                <li class="pricing-feaures">Simple Horizontal Scalability</li>
+            <ul class="pricing-features">
+                <li class="pricing-features-items">Dedicated</li>
+                <li class="pricing-features-items">Simple Horizontal Scalability</li>
             </ul>
-            <p>$400</p><a href="#/" class="signup">SIGN UP</a>
+            <p class="pricing-features-price">$400</p>
+            <a href="#/" class="pricing-button">FREE TRIAL</a>
         </article>
     </div>
 </body>
