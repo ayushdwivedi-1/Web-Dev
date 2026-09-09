@@ -3,6 +3,7 @@
 .title {
     font-family: 'Blood Crow', sans-serif;
     color: black;
+    text-shadow: 0 0 10px #f6f7f9;
 }   
 
 @import url('https://fonts.cdnfonts.com/css/blood-crow');
@@ -15,20 +16,55 @@
 body{
     /* background: radial-gradient(circle, #00d0ff 0%, #0f85fa 50%, #007bff 100%); */
     /* background: radial-gradient(circle, #eb2448 0%, #e40707 100%); */
-    background-color: antiquewhite;
+    background-color: #112D4E;
     font-family: 'Blood Crow', sans-serif;
 }
 
-#mainNavbar{
+#mainNavbar {
     font-size: 5em;
-    font-weight: 900;
+    font-weight:200;
 }
-#mainNavbar .nav-link {
-    color:rgb(82, 3, 3);
+#mainNavbar .flame {
+    color:#ff0015;
+  -webkit-text-stroke: 1px #f22718 ;
+  text-shadow: 0 0 10px #f80000, 0 0 20px #f60014;
+  transition: ease-in-out;
+  transition-duration: 0.2s;
+}
+#mainNavbar .thunder {
+    color:gold;
+  -webkit-text-stroke: 1px #fffb03 ;
+  text-shadow: 0 0 10px #f7ff03, 0 0 10px goldenrod;
+  transition: ease-in-out;
+  transition-duration: 0.2s;
+}
+#mainNavbar .water {
+    color:rgb(0, 166, 255);
+  -webkit-text-stroke: 2px #00b9f1 ;
+  text-shadow: 0 0 10px #3939f4, 0 0 20px hsl(231, 93%, 50%);
+  transition: ease-in-out;
+  transition-duration: 0.2s;
+}
+#mainNavbar .wind {
+    color:silver;
+   -webkit-text-stroke: 2px white ;
+   text-shadow: 0 0 10px #f6f7f9 ;
+   transition: ease-in-out;
+   transition-duration: 0.2s;
+}
+#mainNavbar .stone {
+    color:brown;
+  -webkit-text-stroke: 2px #b87108 ;
+  text-shadow: 0 0 10px ;
+  transition: ease-in-out;
+  transition-duration: 0.2s;
 }
 
-#mainNavbar .nav-link:hover {
-    color:rgb(252, 0, 0);
+#mainNavbar .flame:hover, .water:hover, .thunder:hover, .wind:hover, .stone:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+    transition: ease-in-out;
+    transition-duration: 0.2s;
 }
 
 a {
@@ -39,4 +75,12 @@ a {
 }
 h1 {
     border-radius: 100%;
+}
+#mainIMG {
+    display: block;
+    object-fit: fill;
+}
+
+.subheadings {
+    color: rgb(255, 51, 0);
 }
