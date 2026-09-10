@@ -24,40 +24,68 @@ body{
     font-size: 5em;
     font-weight:200;
 }
-#mainNavbar .flame {
+.flame {
     color:#ff0015;
   -webkit-text-stroke: 1px #f22718 ;
   text-shadow: 0 0 10px #f80000, 0 0 20px #f60014;
   transition: ease-in-out;
   transition-duration: 0.2s;
 }
-#mainNavbar .thunder {
+.flameh {
+    color:#ff0015;
+  -webkit-text-stroke: 1px #f22718 ;
+  text-shadow: 0 0 10px #f80000, 0 0 20px #f60014;
+}
+
+.thunder {
     color:gold;
   -webkit-text-stroke: 1px #fffb03 ;
   text-shadow: 0 0 10px #f7ff03, 0 0 10px goldenrod;
   transition: ease-in-out;
   transition-duration: 0.2s;
 }
-#mainNavbar .water {
+.thunderh {
+    color:gold;
+  -webkit-text-stroke: 1px #fffb03 ;
+  text-shadow: 0 0 10px #f7ff03, 0 0 10px goldenrod;
+}
+
+.water {
     color:rgb(0, 166, 255);
   -webkit-text-stroke: 2px #00b9f1 ;
   text-shadow: 0 0 10px #3939f4, 0 0 20px hsl(231, 93%, 50%);
   transition: ease-in-out;
   transition-duration: 0.2s;
 }
-#mainNavbar .wind {
+.waterh {
+    color:rgb(0, 166, 255);
+  -webkit-text-stroke: 2px #00b9f1 ;
+  text-shadow: 0 0 10px #3939f4, 0 0 20px hsl(231, 93%, 50%);
+}
+.wind {
     color:silver;
    -webkit-text-stroke: 2px white ;
    text-shadow: 0 0 10px #f6f7f9 ;
    transition: ease-in-out;
    transition-duration: 0.2s;
 }
-#mainNavbar .stone {
+.windh {
+    color:silver;
+   -webkit-text-stroke: 2px white ;
+   text-shadow: 0 0 10px #f6f7f9 ;
+}
+
+.stone {
     color:brown;
   -webkit-text-stroke: 2px #b87108 ;
   text-shadow: 0 0 10px ;
   transition: ease-in-out;
   transition-duration: 0.2s;
+}
+.stoneh {
+    color:brown;
+  -webkit-text-stroke: 2px #b87108 ;
+  text-shadow: 0 0 10px ;
 }
 
 #mainNavbar .flame:hover, .water:hover, .thunder:hover, .wind:hover, .stone:hover {
@@ -83,4 +111,36 @@ h1 {
 
 .subheadings {
     color: rgb(255, 51, 0);
+    font-size: 4rem;
+}
+.subheadings span {
+    color: rgb(253, 253, 253);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    font-size: 2.5rem;
+}
+
+p {
+    color: white;
+    font-size: large;
+    font-family: 'Blood Crow', serif;
+    font-weight: 100;
+    text-shadow: 0 0 10px #f6f7f9 ;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+.navbar.scrolled {
+    background: linear-gradient(90deg, #0400ff 0%, #0f85fa 50%, #00dcf0 100%);
+    transition: background 500s;
+}
+
+
+
+@media (max-width: 1200px) {
+    .subheadings {
+        font-size: 3rem;
+}
 }
