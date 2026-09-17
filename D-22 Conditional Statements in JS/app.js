@@ -8,6 +8,7 @@
 //     console.log("Your Number Is Greater than 0.5")
 //     console.log(random)
 // }
+// let password = prompt("Enter Password")
 let password = "cat dog"
 if (password.length >= 6) {
     if (password.indexOf(' ') !== -1) {
@@ -20,3 +21,29 @@ if (password.length >= 6) {
 else {
     console.log("Invalid Password")
 }
+
+
+let userInput = prompt("Enter Something or Nothing")
+if (56) {
+    console.log("TRUTHY")
+}
+else { console.log("FALSY")
+    }
+
+if (null) {
+    console.log("TRUTHY")
+}
+else { console.log("FALSY")
+    }
+
+if (NaN) {
+    console.log("TRUTHY")
+}
+else { console.log("FALSY")
+    }
+
+if (undefined) {
+    console.log("TRUTHY")
+}
+else { console.log("FALSY")
+    }
