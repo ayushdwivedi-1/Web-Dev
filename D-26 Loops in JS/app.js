@@ -23,18 +23,45 @@
 
 // Nested Loops
 
-let str = "Lol"
-for (let i=0; i<=4; i++) {
-    console.log("Outer:", i) ;
-    for (let j=0; j < str.length; j++) {
-        console.log('   Inner:',str[j]);
-    }
-}
+// let str = "Lol"
+// for (let i=0; i<=4; i++) {
+//     console.log("Outer:", i) ;
+//     for (let j=0; j < str.length; j++) {
+//         console.log('   Inner:',str[j]);
+//     }
+// }
 
-// while LOOP
+// // while LOOP
 
-let num = 0
-while (num < 10) {
-    console.log(num);
-    num++;
-}
+// let num = 0
+// while (num < 10) {
+//     console.log(num);
+//     num++;
+// }
+
+// for...of LOOP
+
+// const daysName = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday']
+// //Method-1 By using for loop
+// for (let i=0 ; i<daysName.length ; i++) {
+//     console.log(daysName[i])
+// }
+// //Method-2 By using for of loop
+// for (let days of daysName) {
+//     console.log(days)
+// }
+
+// // for...in LOOP
+
+// const testScores = {
+//     Ayush : 98,
+//     Atul: 95,
+//     Navroop: 92,
+//     Tanvir: 94,
+//     Akhil: 91
+// }
+// for (let i in testScores) {
+//     console.log(i)
+// }
+// for (let y of Object.values(testScores))
+//     console.log(y)
