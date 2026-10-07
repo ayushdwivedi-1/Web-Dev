@@ -1,0 +1,14 @@
+h1 {
+    color:blue;
+}
+.purple {
+    color:purple
+}
+.border {
+    border: green solid 3px;
+}
+.rectangle {
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+}
