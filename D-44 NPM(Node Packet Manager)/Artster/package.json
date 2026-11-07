@@ -1,0 +1,16 @@
+{
+  "name": "artster",
+  "version": "1.0.0",
+  "description": "This project aims to fully implement the FIGfont spec in TypeScript (compiles to JavaScript). It works in the browser and with Node.",
+  "license": "ISC",
+  "author": "Ayush",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "figlet": "^1.12.0"
+  }
+}
