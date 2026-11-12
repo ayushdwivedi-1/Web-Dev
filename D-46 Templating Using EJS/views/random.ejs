@@ -7,5 +7,10 @@
 </head>
 <body>
     <h1>Your Random Number is: <%= rand %></h1>
+    <% if(rand % 2 ===0) { %>
+        <h2>This number is even</h2>
+    <% } else {%>
+        <h2>This is an odd Number</h2>
+    <% } %>
 </body>
 </html>
